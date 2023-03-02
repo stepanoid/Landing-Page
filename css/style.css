@@ -8,3 +8,11 @@ html {
     margin: 0;
     padding: 0;
 }
+
+:root {
+	--dark-background: #1f2937;
+    --medium-background: #e5e7eb;
+    --light-background: #fff;
+
+    --accent-color: #3882f6;
+}
