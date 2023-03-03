@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100&display=swap');
 
 html {
     box-sizing: border-box;
@@ -52,7 +52,7 @@ header .nav {
 
 .nav a {
     font-size: 18px;
-    font-weight: 100;
+    font-weight: 300;
     color: var(--medium-color);
     text-decoration: none;
     cursor: pointer;
@@ -91,7 +91,7 @@ header .nav {
 .hero .left p {
     font-size: 18px;
     color: var(--medium-color);
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.33;
 }
 
@@ -149,6 +149,7 @@ header .nav {
 
 .info .card p {
     font-size: 16px;
+    font-weight: 300;
 }
 
 .quote {
@@ -202,7 +203,7 @@ header .nav {
 .message-container p {
     font-size: 18px;
     color: var(--light-color);
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .sign-up button {
@@ -225,6 +226,6 @@ footer {
 footer p {
     color: var(--medium-color);
     font-size: 14px;
-    font-weight: 100;
+    font-weight: 300;
     text-align: center;
 }
