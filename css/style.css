@@ -149,3 +149,30 @@ header .nav {
 .info .card p {
     font-size: 16px;
 }
+
+.quote {
+    background-color: var(--medium-color);
+    padding: 90px 64px 80px 64px;
+}
+
+.quote-container {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: var(--dark-color);
+}
+
+.quote-container .text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 1.33;
+}
+
+.quote-container .author {
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: 700;
+}
