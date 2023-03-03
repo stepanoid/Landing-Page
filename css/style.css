@@ -106,3 +106,46 @@ header .nav {
 .hero .right img{
     width: 100%;
 }
+
+.info {
+    background-color: var(--light-color);
+    text-align: center;
+}
+
+.info .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: var(--dark-color);
+    margin-bottom: 32px;
+}
+
+.info .cards-container {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+}
+
+.info .card {
+    width: 200px;
+    color: var(--accent-color);
+    border: 3px solid var(--accent-color);
+    border-radius: 18px;
+    padding: 8px 8px 16px 8px;
+}
+
+.info .card img {
+    width: 100%;
+}
+
+.info .card p {
+    font-size: 16px;
+}
