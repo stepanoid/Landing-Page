@@ -1,4 +1,4 @@
 # Landing-Page
 Flexbox Study Project
 
-https://stepanoid.github.io/Landing-Page/
+https://stepanoid.github.io/landing-page/
