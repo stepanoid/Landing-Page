@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 *,
 *::before,
@@ -10,9 +11,44 @@ html {
 }
 
 :root {
-	--dark-background: #1f2937;
-    --medium-background: #e5e7eb;
-    --light-background: #fff;
-
+	--dark-color: #1f2937;
+    --medium-color: #e5e7eb;
+    --light-color: #fff;
     --accent-color: #3882f6;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+header {
+    background-color: var(--dark-color);
+}
+
+header .container {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--light-color);
+}
+
+header .nav {
+    list-style: none;
+    color: var(--light-color);
+    display: flex;
+    gap: 32px;
+}
+
+.nav a {
+    font-size: 18px;
+    color: var(--medium-color);
+    text-decoration: none;
+    cursor: pointer;
 }
