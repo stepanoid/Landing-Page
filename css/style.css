@@ -100,7 +100,6 @@ header .nav {
     padding: 8px 32px;
     cursor: pointer;
     font-size: 18px;
-    
 }
 
 .hero .right img{
@@ -175,4 +174,47 @@ header .nav {
     align-self: flex-end;
     font-size: 20px;
     font-weight: 700;
+}
+
+.sign-up {
+    background-color: var(--light-color);
+}
+
+.sign-up .container {
+    padding: 64px 32px;
+}
+
+.message-container {
+    background-color: var(--accent-color);
+    padding: 32px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    color: var(--light-color);
+}
+
+.message-container h3 {
+    font-size: 22px;
+    line-height: 1;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.message-container p {
+    font-size: 18px;
+    color: var(--light-color);
+    font-weight: 100;
+}
+
+.sign-up button {
+    background-color: var(--accent-color);
+    color: var(--light-color);
+    border: 2px solid var(--light-color);
+    border-radius: 8px;
+    padding: 8px 32px;
+    cursor: pointer;
+    font-size: 18px;
+
+    flex-shrink: 0;
 }
